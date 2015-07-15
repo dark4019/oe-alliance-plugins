@@ -25,6 +25,7 @@ config.plugins.VFD_ini.showClock = ConfigSelection(default = "True_Switch", choi
 config.plugins.VFD_ini.timeMode = ConfigSelection(default = "24h", choices = [("12h"),("24h")])
 
 def vfd_write(text):
+	print "vfd_write !!"
 	open("/dev/dbox/oled0", "w").write(text)
 
 class Channelnumber:
