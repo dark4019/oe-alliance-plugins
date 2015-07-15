@@ -130,7 +130,7 @@ AM_CONDITIONAL(SPARK, test `echo "$BOXTYPE" | cut -b 1-5` == spark)
 AM_CONDITIONAL(XC7362, test "$BOXTYPE" == xc7362)
 AM_CONDITIONAL(XC7358, test "$BOXTYPE" == xc7358)
 AM_CONDITIONAL(XC7358CI, test "$BOXTYPE" == xc7358ci)
-AM_CONDITIONAL(7000S, test "$BOXTYPE" == 7000s)
+AM_CONDITIONAL(MBMICRO, test "$BOXTYPE" == 7000s)
 if test `echo "$BOXTYPE" | cut -b 1-2` == "dm"; then
 	AC_DEFINE(DREAMBOX, 1, [Dreambox hardware])
 fi
