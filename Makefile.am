@@ -39,7 +39,6 @@ SUBDIRS += F3LEDControl XtrendRemote
 endif
 
 if 7000S
-asdfasdf
 SUBDIRS += F3LEDControl
 endif
 
