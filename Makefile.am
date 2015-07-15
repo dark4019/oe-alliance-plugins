@@ -39,9 +39,10 @@ SUBDIRS += F3LEDControl XtrendRemote
 endif
 
 if MBMICRO
+asdfasdf
 SUBDIRS += F3LEDControl
 endif
-asdsdf
+
 if HD1200
 SUBDIRS += F3LEDControl XtrendRemote
 endif
