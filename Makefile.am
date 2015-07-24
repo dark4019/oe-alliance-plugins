@@ -39,7 +39,7 @@ SUBDIRS += F3LEDControl XtrendRemote
 endif
 
 if MBMICRO
-SUBDIRS += F3LEDControl HbbTV
+SUBDIRS += F3LEDControl HbbTV Blindscan
 endif
 
 if HD1200
